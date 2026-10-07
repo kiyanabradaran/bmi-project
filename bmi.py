@@ -3,7 +3,7 @@ user_name = input('enter your name')
 user_weight =float(input('enter your weight'))
 user_height =float(input('enter your height in meter'))
 bmi = user_weight/(user_height**2)
-# چون میخوایم فقط تا دو رقم اعشار نشون بده پس از تابغ اف استفاده میکنیم 
+# چون میخوایم فقط تا دو رقم اعشار نشون بده پس از تابع اف استفاده میکنیم 
 print('BMI:',f'{bmi:.2f}')
 if bmi <= 18.5 :
     print ('kamboode vazn')
